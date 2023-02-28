@@ -1,0 +1,17 @@
+{
+  "common": {
+    "company": "Floripa Bike Fit",
+    "copyright": "Todos os direitos reservados",
+    "create by": "Francis Targanski - FT Dev."
+    
+
+  },
+
+
+  "aboutPage": {
+    "title": "ESTE ES EL TITULO"
+  },
+  "newsPage": {
+    "title": "ESTE ES EL TITULO DE NOTICIAS"
+  }
+}

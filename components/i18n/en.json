@@ -1,0 +1,15 @@
+{
+  "common": {
+    "company": "Floripa Bike Fit"
+    
+
+  },
+
+
+  "aboutPage": {
+    "title": "ESTE ES EL TITULO"
+  },
+  "newsPage": {
+    "title": "ESTE ES EL TITULO DE NOTICIAS"
+  }
+}
