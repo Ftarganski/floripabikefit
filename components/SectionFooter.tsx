@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "../styles/fbf.module.css";
+import { CgInstagram } from "react-icons/Cg";
 import {
-  RiCopyrightLine,
-  RiInstagramLine,
-  RiCalendar2Line,
-} from "react-icons/Ri";
-import { MdOutlineMail } from "react-icons/Md";
+  MdOutlineCopyright,
+  MdOutlineEditCalendar,
+  MdOutlineMail,
+} from "react-icons/Md";
 import "./i18n/i18n";
 import { useTranslation } from "react-i18next";
 import LogoAllWhite from "../public/images/fbf_logo_allwhite_text.svg";
@@ -31,7 +31,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <RiInstagramLine className={styles.footer_icon} />
+              <CgInstagram className={styles.footer_icon} />
             </a>
             <a
               href="https://www.instagram.com/floripabikefit/"
@@ -39,7 +39,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <RiCalendar2Line className={styles.footer_icon} />
+              <MdOutlineEditCalendar className={styles.footer_icon} />
             </a>
             <a
               href="mailto:floripabikefit@gmail.com"
@@ -57,7 +57,7 @@ const Footer = () => {
             {t("copyright")}
             <span>
               {" "}
-              <RiCopyrightLine />{" "}
+              <MdOutlineCopyright />{" "}
             </span>
             <a
               href="https://www.targanski.com"
