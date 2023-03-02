@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "../../styles/fbf.module.css";
-import { BsFillFileArrowUpFill } from "react-icons/Bs";
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 const Arrow = () => {
   return (
     <>
       <div className={styles.arrow}>
         <a href="#home">
-          <BsFillFileArrowUpFill className={styles.arrow_icon} />
+          <ArrowUpwardIcon className={styles.arrow_icon} />
         </a>
       </div>
     </>
