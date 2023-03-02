@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "../styles/fbf.module.css";
-import { CgInstagram } from "react-icons/Cg";
-import {
-  MdOutlineCopyright,
-  MdOutlineEditCalendar,
-  MdOutlineMail,
-} from "react-icons/Md";
+
+import InstagramIcon from '@mui/icons-material/Instagram';
+import EventIcon from '@mui/icons-material/Event';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import CopyrightIcon from '@mui/icons-material/Copyright';
+
 import "./i18n/i18n";
 import { useTranslation } from "react-i18next";
 import LogoAllWhite from "../public/images/fbf_logo_allwhite_text.svg";
@@ -31,7 +31,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <CgInstagram className={styles.footer_icon} />
+              <InstagramIcon className={styles.footer_icon} />
             </a>
             <a
               href="https://www.instagram.com/floripabikefit/"
@@ -39,7 +39,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <MdOutlineEditCalendar className={styles.footer_icon} />
+              <EventIcon className={styles.footer_icon} />
             </a>
             <a
               href="mailto:floripabikefit@gmail.com"
@@ -47,7 +47,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <MdOutlineMail className={styles.footer_icon} />
+              <MailOutlineIcon  className={styles.footer_icon} />
             </a>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Footer = () => {
             {t("copyright")}
             <span>
               {" "}
-              <MdOutlineCopyright />{" "}
+              <CopyrightIcon/>{" "}
             </span>
             <a
               href="https://www.targanski.com"
