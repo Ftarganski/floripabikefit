@@ -1,27 +1,29 @@
 import React from "react";
-import { useState } from "react";
 import styles from "../styles/fbf.module.css";
+import Services from "./body/services";
+import About from "./body/about";
+import Clients from "./body/clients";
+import Partners from "./body/partners";
+import Contact from "./body/contact";
+import Arrow from "./body/arrow";
+import "./i18n/i18n";
+import { useTranslation } from "react-i18next";
+
+
 
 const Body = () => {
-
+  const { t } = useTranslation("common");
 
   return (
     <>
       <div className={styles.sectionContainer}>
-        <section className={`${styles.doubleHeight} ${styles.section1}`}>
-          <div className={styles.section1a}></div>
-          <div className={styles.section1b}></div>
-        </section>
-        <section
-          className={`${styles.doubleHeight} ${styles.section2}`}
-        ></section>
-        <section
-          className={`${styles.fullHeight} ${styles.section3}`}
-        ></section>
-        <section
-          className={`${styles.fullHeight} ${styles.section4}`}
-        ></section>
+        <Services/>
+        <About />
+        <Clients />
+        <Partners />
+        <Contact/>
       </div>
+      <Arrow />
     </>
   );
 };

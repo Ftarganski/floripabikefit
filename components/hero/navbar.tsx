@@ -1,13 +1,15 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { FiHome, FiInfo, FiSettings, FiLogOut } from "react-icons/fi";
+import { FiHome, FiInfo, FiSettings, FiLogOut, FiPhone } from "react-icons/fi";
 import styles from "../../styles/fbf.module.css";
-import LogoWhite from "../../public/images/fbf_logo_white.svg";
-import LogoBlack from "../../public/images/fbf_logo_black.svg";
+import LogoAllWhite from "../../public/images/fbf_logo_allwhite.svg";
+import LogoAllBlue from "../../public/images/fbf_logo_allblue.svg";
+import "../i18n/i18n";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
-  
+  const { t } = useTranslation("common");
   //SCROLL FUNCTION
   const [scrolled, setScrolled] = useState(false);
 
@@ -24,43 +26,97 @@ const Navbar = () => {
     };
   }, [scrolled]);
 
-  const TagLogo = scrolled ? LogoWhite : LogoBlack;
+  const TagLogo = scrolled ? LogoAllWhite : LogoAllBlue;
+
+  //PHONE CONTACT FUNCTION
+  function callPhoneNumber() {
+    const phoneNumber = "+5548998098541";
+    window.location.href = `tel:${phoneNumber}`;
+  }
 
   return (
     <>
       <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
-        <TagLogo alt="Logo" width={50} height={50} />
+        <span className={styles.nav_logo}>
+          <a href="#home">
+            <TagLogo className={styles.nav_logo_image} alt="Logo" width={50} height={50} />
+          </a>
+          <p className={`${styles.nav_company} ${scrolled ? styles.scrolled : ""}`}>{t("company")}</p>
+        </span>
         <ul>
           <li>
-            <Link href="/">
-              <FiHome
-                className={`${styles.icon} ${scrolled ? styles.scrolled : ""}`}
-              />
-            </Link>
+            <a href="#services">
+              <p
+                className={`${styles.nav_button} ${
+                  scrolled ? styles.scrolled : ""
+                }`}
+              >
+                {" "}
+                Serviços
+              </p>
+            </a>
           </li>
+
           <li>
-            <Link href="/about">
-              <FiInfo
-                className={`${styles.icon} ${scrolled ? styles.scrolled : ""}`}
-              />
-            </Link>
+            <a href="#about">
+              <p
+                className={`${styles.nav_button} ${
+                  scrolled ? styles.scrolled : ""
+                }`}
+              >
+                Quem Somos
+              </p>
+            </a>
           </li>
+
           <li>
-            <Link href="/settings">
-              <FiSettings
-                className={`${styles.icon} ${scrolled ? styles.scrolled : ""}`}
-              />
-            </Link>
+            <a href="#clients">
+              <p
+                className={`${styles.nav_button} ${
+                  scrolled ? styles.scrolled : ""
+                }`}
+              >
+                Clientes
+              </p>
+            </a>
           </li>
+
           <li>
-            <a href="https://www.example.com">
-              <FiLogOut
-                className={`${styles.icon} ${scrolled ? styles.scrolled : ""}`}
+            <a href="#partners">
+              <p
+                className={`${styles.nav_button} ${
+                  scrolled ? styles.scrolled : ""
+                }`}
+              >
+                Parceiros
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact">
+              <p
+                className={`${styles.nav_button} ${
+                  scrolled ? styles.scrolled : ""
+                }`}
+              >
+                Contato
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="tel:+5548998098541">
+              <FiPhone
+                className={`${styles.nav_button} ${
+                  scrolled ? styles.scrolled : ""
+                }`}
+                onClick={callPhoneNumber}
               />
             </a>
           </li>
         </ul>
-              </nav>
+      </nav>
     </>
   );
 };
