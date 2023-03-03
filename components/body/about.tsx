@@ -7,23 +7,34 @@ const About = () => {
   const { t } = useTranslation("common");
   return (
     <>
-      <section id="about" className={`${styles.fullHeight} ${styles.section_about_left}`}>
+    <section id="about" className={`${styles.fullHeight} ${styles.section_about}`}>
+      
+      <div className={styles.about}>
         
-        <div className={styles.section_about1}>
+        <div className={`${styles.fullHeight} ${styles.section_about_left}`}>
+          
+            
+            <div className={styles.section_about_chapter}>
+              <h4 className={styles.common_h4}>{t("about_fitter_one")}</h4>
+              <p className={styles.common_p}>{t("about_description_fitter_one")}</p>
+            </div>
+            
 
+            <div className={styles.section_about_chapter}>
+              <h4 className={styles.common_h4}>{t("about_fitter_two")}</h4>
+              <p className={styles.common_p}>{t("about_description_fitter_two")}</p>
+            </div>
+        
         </div>
         
+        <div className={`${styles.fullHeight} ${styles.section_about_right}`}>
 
-        <div className={styles.section_about2}>
-
+        <h2 className={styles.common_subtitle}>{t("about_title")}</h2>
         </div>
       
-      </section>
-
-      <section className={`${styles.fullHeight} ${styles.section_about_right}`}>
-
-        
-      </section>
+      </div>
+      
+    </section>
     </>
   );
 };
