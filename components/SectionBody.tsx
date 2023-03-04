@@ -4,7 +4,6 @@ import Services from "./body/services";
 import About from "./body/about";
 import Clients from "./body/clients";
 import Partners from "./body/partners";
-import Contact from "./body/contact";
 import Arrow from "./body/arrow";
 import "./i18n/i18n";
 import { useTranslation } from "react-i18next";
@@ -21,7 +20,6 @@ const Body = () => {
         <About />
         <Clients />
         <Partners />
-        <Contact/>
       </div>
       <Arrow />
     </>
