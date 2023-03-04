@@ -32,7 +32,6 @@
   text-align: center;
 }
 
-
 .common_p_large {
   font-family: "Montserrat";
   color: var(--main-color);
@@ -49,7 +48,7 @@
   font-family: "Montserrat";
   color: var(--main-color);
   font-size: medium;
-  padding-top: 5%;
+  padding-top: 2%;
   box-sizing: border-box;
   text-align: center;
   width: 80%;
@@ -254,18 +253,24 @@
 
 .service_grid {
   display: flex;
+  -webkit-flex:1;
+  flex:1;
   flex-direction: column;
   padding-top: 2%;
   box-sizing: border-box;
+  
 }
 
 .service_icon {
   height: 75px;
   fill: var(--third-color);
+  width: fit-content;
+  align-self: center;
 }
 
 .service_icon:hover {
   fill: var(--fourth-color);
+  filter: drop-shadow(2px 2px 3px var(--third-color) )
 }
 
 /* BODY_SECTION_ABOUT */
@@ -331,6 +336,9 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-size: cover;
+  border-left: 5px solid var(--third-color);
+  border-top: 5px solid var(--third-color);
+  border-right: 5px solid var(--third-color);
 }
 
 .section_about_card_image_two {
@@ -339,18 +347,24 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-size: cover;
+  border-left: 5px solid var(--third-color);
+  border-top: 5px solid var(--third-color);
+  border-right: 5px solid var(--third-color);
 }
 
 .section_about_card_text {
   grid-area: "text";
-  margin: 25px;
+  padding: 25px 0;
+  box-sizing: border-box;
+  border-left: 5px solid var(--third-color);
+  border-right: 5px solid var(--third-color);
 }
 
-.section_about_card_icon{
-height: 18px;
-fill: var(--strava-color);
-margin-right: 2%;
-box-sizing: border-box;
+.section_about_card_icon {
+  height: 18px;
+  fill: var(--strava-color);
+  margin-right: 2%;
+  box-sizing: border-box;
 }
 
 .section_about_card_nickname {
