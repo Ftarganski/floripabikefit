@@ -1,12 +1,11 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Link from "next/link";
-import { FiHome, FiInfo, FiSettings, FiLogOut, FiPhone } from "react-icons/fi";
 import styles from "../../styles/fbf.module.css";
 import LogoAllWhite from "../../public/images/fbf_logo_allwhite.svg";
 import LogoAllBlue from "../../public/images/fbf_logo_allblue.svg";
 import "../i18n/i18n";
 import { useTranslation } from "react-i18next";
+import PhoneIcon from '@mui/icons-material/Phone';
 
 const Navbar = () => {
   const { t } = useTranslation("common");
@@ -107,7 +106,7 @@ const Navbar = () => {
 
           <li>
             <a href="tel:+5548998098541">
-              <FiPhone
+              <PhoneIcon
                 className={`${styles.nav_button} ${
                   scrolled ? styles.scrolled : ""
                 }`}

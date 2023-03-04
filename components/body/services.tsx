@@ -20,7 +20,7 @@ const Services = () => {
           </div>
           <div className={styles.service_container}>        
             <div  className={styles.service_grid}>
-              <p className={styles.common_p}>{t("service_description_top")}</p>
+              <p className={styles.common_p_large} dangerouslySetInnerHTML={{ __html: t("service_description_top") }} />
             </div>
           </div>
         </div>
@@ -33,19 +33,19 @@ const Services = () => {
           <div className={styles.service_container}>
               <div  className={styles.service_grid}>
                 <Performance className={styles.service_icon} alt="Performance" />
-                <h4 className={styles.common_h4}>{t("service_performance_title")}</h4>
+                <h3 className={styles.common_h3}>{t("service_performance_title")}</h3>
                 <p className={styles.common_p}>{t("service_performance_description")}</p>
               </div>
               
               <div className={styles.service_grid}>
                 <Comfort className={styles.service_icon} alt="Conforto"/>
-                <h4 className={styles.common_h4}>{t("service_confort_title")}</h4>
+                <h3 className={styles.common_h3}>{t("service_confort_title")}</h3>
                 <p  className={styles.common_p}>{t("service_confort_description")}</p>
               </div>
               
               <div className={styles.service_grid}>
                 <Injury className={styles.service_icon} alt="Lesões"/>
-                <h4 className={styles.common_h4}>{t("service_injury_title")}</h4>
+                <h3 className={styles.common_h3}>{t("service_injury_title")}</h3>
                 <p  className={styles.common_p}>{t("service_injury_description")}</p>
               </div>
           </div>

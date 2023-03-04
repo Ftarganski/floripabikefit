@@ -23,6 +23,8 @@ const Hero = () => {
     };
   }, [scrolled]);
 
+  const image_bg = "../public/images/hero_background.jpg";
+
   return (
     <>
       <HeadSite />

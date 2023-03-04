@@ -9,24 +9,39 @@
     "slogan": "“Não sacrifique conforto por desempenho - tenha ambos com o Floripa Bike Fit!”",
 
     "service_subtitle_top": "O que é o Bike Fit?",
-    "service_description_top": "ipsum lorem",
+    "service_description_top": "O Bike Fit (ou “ajuste de bicicleta”) é um processo que visa atingir o ajuste ideal das dimensões da bicicleta de acordo com antropometria específica de cada ciclista.<br><br>Durante o Bike Fit, nossos especialista irão trabalhar com o ciclista para ajustar a bicicleta de acordo com suas necessidades e características físicas. Isso pode incluir diversos ajustes dimensionais, como por exemplo: altura do selim, posição do guidão, inclinação do selim, distância do guidão, inclinação da mesa, entre outras coisas.",
     "service_subtitle_bottom": "Para que serve o Bike Fit?",
-    "service_description_bottom": "ipsum lorem",
+    "service_description_bottom": "Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor",
 
     "service_performance_title": "Performance",
-    "service_performance_description": "ipsum lorem",
+    "service_performance_description": "Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor",
     "service_confort_title": "Conforto",
-    "service_confort_description": "ipsum lorem",
+    "service_confort_description": "Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor",
     "service_injury_title": "Evita Lesões",
-    "service_injury_description": "ipsum lorem",
+    "service_injury_description": "Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor",
 
+    "about_title": "Nossa equipe de Bike Fitters",
+    "about_fitter_stats_title": "Estatísticas Mensais",
 
-    "about_title": "Bike Fitters",
-    "about_fitter_one": "Jorge",
-    "about_description_fitter_one": "descrição Jorge",
+    "about_fitter_one": "Jorge Vasconcellos",
+    "about_fitter_one_nickname": "Ciclista Prateado",
+    "about_description_fitter_one": "Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor",
+    "about_fitter_one_distance": "Distância",
+    "about_fitter_one_distance_data": "700 km",
+    "about_fitter_one_elevation": "Elevação",
+    "about_fitter_one_elevation_data": "1.703 m",
+    "about_fitter_one_category": "Categoria",
+    "about_fitter_one_category_data": "Road Bike",
 
-    "about_fitter_two": "Francis",
-    "about_description_fitter_two": "descrição Francis"
+    "about_fitter_two": "Francis Targanski",
+    "about_fitter_two_nickname": "Targanski",
+    "about_description_fitter_two": "Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor",
+    "about_fitter_two_distance": "Distância",
+    "about_fitter_two_distance_data": "420 km",
+    "about_fitter_two_elevation": "Elevação",
+    "about_fitter_two_elevation_data": "2.508 m",
+    "about_fitter_two_category": "Categoria",
+    "about_fitter_two_category_data": "Mountain Bike"
   },
 
   "aboutPage": {
