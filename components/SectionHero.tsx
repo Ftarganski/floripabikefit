@@ -23,13 +23,11 @@ const Hero = () => {
     };
   }, [scrolled]);
 
-  const image_bg = "../public/images/hero_background.jpg";
-
   return (
     <>
       <HeadSite />
       <Navbar />
-      <section id="home" className={`${styles.fullHeight} ${styles.hero}`}>
+      <section id="home" className={styles.hero}>
         <h3 className={styles.hero_title}>{t("title")}</h3>
         <h1 className={styles.hero_subtitle}>{t("company")}</h1>
       </section>

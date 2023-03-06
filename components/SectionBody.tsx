@@ -4,24 +4,17 @@ import Services from "./body/services";
 import About from "./body/about";
 import Clients from "./body/clients";
 import Partners from "./body/partners";
-import Arrow from "./body/arrow";
 import "./i18n/i18n";
 import { useTranslation } from "react-i18next";
 
-
-
 const Body = () => {
   const { t } = useTranslation("common");
-
   return (
     <>
-      <div className={styles.sectionContainer}>
-        <Services/>
-        <About />
-        <Clients />
-        <Partners />
-      </div>
-      <Arrow />
+      <Services />
+      <About />
+      <Clients />
+      <Partners />
     </>
   );
 };

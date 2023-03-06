@@ -1,12 +1,7 @@
 {
   "common": {
     "company": "Floripa Bike Fit",
-
     "title": "“Supere seus limites, melhore seu desempenho”",
-
-    "copyright": "Todos os direitos reservados",
-    "create by": "Francis Targanski - FT Dev.",
-    "slogan": "“Não sacrifique conforto por desempenho - tenha ambos com o Floripa Bike Fit!”",
 
     "service_subtitle_top": "O que é o Bike Fit?",
     "service_description_top": "O Bike Fit (ou “ajuste de bicicleta”) é um processo que visa atingir o ajuste ideal das dimensões da bicicleta de acordo com antropometria específica de cada ciclista.<br><br>Durante o Bike Fit, nossos especialista irão trabalhar com o ciclista para ajustar a bicicleta de acordo com suas necessidades e características físicas. Isso pode incluir diversos ajustes dimensionais, como por exemplo: altura do selim, posição do guidão, inclinação do selim, distância do guidão, inclinação da mesa, entre outras coisas.",
@@ -35,13 +30,33 @@
 
     "about_fitter_two": "Francis Targanski",
     "about_fitter_two_nickname": "Targanski",
-    "about_description_fitter_two": "Um peba raiz, apaixonado pelo ciclismo desde a década de 80, onde aprendeu a rodar nas magrelas sobre uma Monark Ranger verde. Atualmente pedala na Black Polska, uma magrela para todo terreno!",
+    "about_description_fitter_two": "Um peba raiz, apaixonado pelo ciclismo desde a década de 80, onde aprendeu a rodar nas magrelas sobre uma Monark Ranger verde. Atualmente pedala na Black Polska, uma magrela configurada para rodar em todo tipo de terreno!",
     "about_fitter_two_distance": "Distância",
     "about_fitter_two_distance_data": "420 km",
     "about_fitter_two_elevation": "Elevação",
     "about_fitter_two_elevation_data": "2.508 m",
     "about_fitter_two_category": "Categoria",
-    "about_fitter_two_category_data": "Mountain Bike"
+    "about_fitter_two_category_data": "Mountain Bike",
+
+    "clients_title": "O que falam de nós",
+
+  
+    "client_one": "cliente 01",
+    "client_one_nickname": "cliente 01 strava",
+    "client_one_comment": "cliente 01 comentário",
+
+    "client_two": "cliente 02",
+    "client_two_nickname": "cliente 02 strava",
+    "client_two_comment": "cliente 02 comentário",
+
+    "client_three": "cliente 03",
+    "client_three_nickname": "cliente 03 strava",
+    "client_three_comment": "cliente 03 comentário",
+
+    "contact_title": "Fale Conosco",
+    "copyright": "Todos os direitos reservados",
+    "create by": "Francis Targanski - FT Dev.",
+    "slogan": "“Não sacrifique conforto por desempenho - tenha ambos com o Floripa Bike Fit!”"
   },
 
   "aboutPage": {

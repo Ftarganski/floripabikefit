@@ -16,7 +16,7 @@ const Services = () => {
         
         <div className={styles.service_chapter}>
           <div>
-            <h2 className={styles.common_subtitle}>{t("service_subtitle_top")}</h2>
+            <h2 className={styles.common_subtitle_black}>{t("service_subtitle_top")}</h2>
           </div>
           <div className={styles.service_container}>        
             <div  className={styles.service_grid}>
@@ -28,7 +28,7 @@ const Services = () => {
               
         <div className={styles.service_chapter}>
           <div>
-            <h2 className={styles.common_subtitle}>{t("service_subtitle_bottom")}</h2>
+            <h2 className={styles.common_subtitle_black}>{t("service_subtitle_bottom")}</h2>
           </div>
           <div className={styles.service_container}>
               <div  className={styles.service_grid}>
