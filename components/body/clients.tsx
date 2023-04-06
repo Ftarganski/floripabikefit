@@ -6,6 +6,10 @@ import Strava from "../../public/images/strava.svg";
 import Client_One from "../../public/images/avatar_001.svg";
 import Client_Two from "../../public/images/avatar_002.svg";
 import Client_Three from "../../public/images/avatar_003.svg";
+import Client_Four from "../../public/images/avatar_003.svg";
+import Client_Five from "../../public/images/avatar_003.svg";
+import Client_Six from "../../public/images/avatar_003.svg";
+
 
 const Clients = () => {
   const { t } = useTranslation("common");
@@ -22,10 +26,10 @@ const Clients = () => {
       
           <div className={styles.client_card}>
             <div className={styles.client_card_image}>
-              <Client_One alt="Cliente" className={styles.client_card_image_client}/>
+              <Client_Three alt="Cliente" className={styles.client_card_image_client}/>
               <div className={styles.client_card_name}>
               <h3 className={styles.common_h3}>{t("client_one")}</h3>
-              <a href="https://www.strava.com"
+              <a href="https://www.strava.com/athletes/88088080"
               target="_blank"
               rel="noreferrer" className={styles.client_card_nickname}>
               <Strava className={styles.client_card_icon}/>{t("client_one_nickname")}</a>
@@ -41,7 +45,7 @@ const Clients = () => {
               <Client_Two alt="Cliente" className={styles.client_card_image_client}/>
               <div className={styles.client_card_name}>
               <h3 className={styles.common_h3}>{t("client_two")}</h3>
-              <a href="https://www.strava.com"
+              <a href="https://www.strava.com/athletes/12577606"
               target="_blank"
               rel="noreferrer" className={styles.client_card_nickname}>
               <Strava className={styles.client_card_icon}/>{t("client_two_nickname")}</a>
@@ -54,10 +58,10 @@ const Clients = () => {
 
           <div className={styles.client_card}>
             <div className={styles.client_card_image}>
-              <Client_Three alt="Cliente" className={styles.client_card_image_client}/>
+              <Client_One alt="Cliente" className={styles.client_card_image_client}/>
               <div className={styles.client_card_name}>
               <h3 className={styles.common_h3}>{t("client_three")}</h3>
-              <a href="https://www.strava.com"
+              <a href="https://www.strava.com/athletes/101300259"
               target="_blank"
               rel="noreferrer" className={styles.client_card_nickname}>
               <Strava className={styles.client_card_icon}/>{t("client_three_nickname")}</a>
@@ -68,15 +72,13 @@ const Clients = () => {
             </div>
           </div>
 
-
-
-
-
-
-
-
-
         </div>
+
+
+
+
+
+
       </div>
 
       <div className={styles.background_bottom}>

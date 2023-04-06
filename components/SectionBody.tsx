@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "../styles/fbf.module.css";
 import Services from "./body/services";
 import About from "./body/about";
 import Clients from "./body/clients";
@@ -14,7 +13,7 @@ const Body = () => {
       <Services />
       <About />
       <Clients />
-      <Partners />
+      {/* <Partners /> */}
     </>
   );
 };

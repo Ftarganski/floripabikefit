@@ -80,7 +80,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a href="#partners">
               <p
                 className={`${styles.nav_button} ${
@@ -90,7 +90,7 @@ const Navbar = () => {
                 Parceiros
               </p>
             </a>
-          </li>
+          </li> */}
 
           <li>
             <a href="#contact">

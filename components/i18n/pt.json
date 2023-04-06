@@ -40,20 +40,37 @@
 
     "clients_title": "O que falam de nós",
 
-  
-    "client_one": "cliente 01",
-    "client_one_nickname": "cliente 01 strava",
+    "client_one": "Nicole Ortolani",
+    "client_one_nickname": "Nicole Ortolani",
     "client_one_comment": "cliente 01 comentário",
 
-    "client_two": "cliente 02",
-    "client_two_nickname": "cliente 02 strava",
+    "client_two": "Marcelo Onhate",
+    "client_two_nickname": "Marcelo Onhate",
     "client_two_comment": "cliente 02 comentário",
 
-    "client_three": "cliente 03",
-    "client_three_nickname": "cliente 03 strava",
-    "client_three_comment": "cliente 03 comentário",
+    "client_three": "Leandro Rocco",
+    "client_three_nickname": "Leandro Rocco",
+    "client_three_comment": "“Lugar amplo, moderno, luminoso e um atendimento totalmente amigável. Fui com meu selim muito baixo por causa de uma dor que estava sentindo, eles me explicaram que se eu continuasse pedalando desse jeito ia ter problemas em outras partes como joelhos, cervical, etc. Depois das modificações, que no começo são estranhas, melhorou bastante a dor e a posição minha na bike”",
+
+    "client_four": "cliente 04",
+    "client_four_nickname": "cliente 04 strava",
+    "client_four_comment": "cliente 04 comentário",
+
+    "client_five": "cliente 05",
+    "client_five_nickname": "cliente 05 strava",
+    "client_five_comment": "cliente 05 comentário",
+
+    "client_six": "cliente 06",
+    "client_six_nickname": "cliente 06 strava",
+    "client_six_comment": "cliente 06 comentário",
 
     "contact_title": "Fale Conosco",
+    "contact_address_street": "Rua Mário Lacombe, 314 / sala 5",
+    "contact_address_neighborhood": "Canasvieiras",
+    "contact_address_city": "Florianópolis / SC",
+    "contact_address_postalcode": "CEP: 88054-260",
+    "contact_address_country": "Brasil",
+
     "copyright": "Todos os direitos reservados",
     "create by": "Francis Targanski - FT Dev.",
     "slogan": "“Não sacrifique conforto por desempenho - tenha ambos com o Floripa Bike Fit!”"

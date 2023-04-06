@@ -10,7 +10,8 @@ const Services = () => {
   const { t } = useTranslation("common");
   return (
     <>
-     <section id="services" className={`${styles.fullHeight} ${styles.section_services}`}>
+      <section id="services" className={styles.section_services_container}>
+     
       
       <div className={styles.services}>
         
