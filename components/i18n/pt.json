@@ -72,14 +72,9 @@
     "contact_address_country": "Brasil",
 
     "copyright": "Todos os direitos reservados",
-    "create by": "Francis Targanski - FT Dev.",
+    "create by": "Desenvolvido por Francis Targanski - FT Dev.",
     "slogan": "“Não sacrifique conforto por desempenho - tenha ambos com o Floripa Bike Fit!”"
-  },
-
-  "aboutPage": {
-    "title": "ESTE ES EL TITULO"
-  },
-  "newsPage": {
-    "title": "ESTE ES EL TITULO DE NOTICIAS"
   }
+
+  
 }
