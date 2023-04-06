@@ -6,7 +6,6 @@ import { useTranslation } from "react-i18next";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import EventIcon from "@mui/icons-material/Event";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import CopyrightIcon from "@mui/icons-material/Copyright";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LogoAllWhite from "../../public/images/fbf_logo_allwhite_text.svg";
 import Arrow from "../body/arrow";
@@ -104,10 +103,7 @@ const Contact = () => {
             <div className={styles.contact_info_bottom}>
               <p>
                 {t("copyright")}
-                <span>
-                  {" "}
-                  <CopyrightIcon className={styles.contact_info_icon} />{" "}
-                </span>
+                
                 <a
                   href="https://www.targanski.com"
                   title="FT Dev."
