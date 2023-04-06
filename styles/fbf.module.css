@@ -690,7 +690,126 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+.nav_button{
+  text-align: center;
+  font-size: medium;
+}
+
+
+  .nav_company {
+    display: none;
+  }
+
+  .hero_title {
+    font-size: 2.2em;
+  }
+
+  .hero_subtitle {
+    font-size: 1.7em;
+  }
+
+  .common_p {
+    font-size: small;
+    width: 90%;
+    margin: 0 5%;
+    padding-top: 0%;
+  }
+  .common_p_large {
+    font-size: medium;
+  }
+
+  .about_cards {
+    flex-direction: column;
+  }
+
+  .section_about_card {
+    width: 100%;
+    height: 45%;
+    grid-template-columns: 40% 60% 0%;
+    grid-template-rows: 100%;
+    border-radius: 10px;
+  }
+
+  .section_about_card_nickname{
+    padding: 2% 0;
+    box-sizing: border-box;
+  }
+
+  .section_about_card_image_one,
+  .section_about_card_image_two {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    background-position: center;
+    border-left: 5px solid var(--second-color);
+    border-top: 5px solid var(--second-color);
+    border-bottom: 5px solid var(--second-color);
+  }
+
+  .section_about_card_text{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .section_about_card_stats {
+    display: none;
+  }
+    
+  .clients_cards {
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+  }
+
+  .client_card {
+    width: 100%;
+    height: 45%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    border-radius: 10px;
+  }
+
+  .client_card:first-child{
+    display: none;
+  }
+
+  .client_card_image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .client_card_image_client {
+    display: none;
+  }
+
+  .client_card_name {
+    width: 100%;
+  }
+  .client_card_nickname {
+    flex-direction: column;
+  }
+  .client_card_text {
+    align-self: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact_content_cards{
+    flex-direction: column;
+  }
+
+  .contact_content_cards_map, .contact_content_cards_data{
+    width: 100%;
+    height: 50%;
+  }
+
+  .contact_content_cards_data_address, .contact_content_cards_data_social{
+    width: 100%;
+  }
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -765,6 +884,7 @@
     height: 30%;
     grid-template-columns: 30% 70%;
     grid-template-rows: 100%;
+    border-radius: 10px;
   }
   .client_card_image {
     flex-direction: column;
