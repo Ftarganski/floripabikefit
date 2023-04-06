@@ -35,19 +35,19 @@ const Services = () => {
               <div  className={styles.service_grid}>
                 <Performance className={styles.service_icon} alt="Performance" />
                 <h3 className={styles.common_h3}>{t("service_performance_title")}</h3>
-                <p className={styles.common_p}>{t("service_performance_description")}</p>
+                <p className={styles.common_p_services}>{t("service_performance_description")}</p>
               </div>
               
               <div className={styles.service_grid}>
                 <Comfort className={styles.service_icon} alt="Conforto"/>
                 <h3 className={styles.common_h3}>{t("service_confort_title")}</h3>
-                <p  className={styles.common_p}>{t("service_confort_description")}</p>
+                <p  className={styles.common_p_services}>{t("service_confort_description")}</p>
               </div>
               
               <div className={styles.service_grid}>
                 <Injury className={styles.service_icon} alt="Lesões"/>
                 <h3 className={styles.common_h3}>{t("service_injury_title")}</h3>
-                <p  className={styles.common_p}>{t("service_injury_description")}</p>
+                <p  className={styles.common_p_services}>{t("service_injury_description")}</p>
               </div>
           </div>
         </div>

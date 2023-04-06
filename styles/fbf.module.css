@@ -66,6 +66,18 @@
   box-sizing: border-box;
 }
 
+.common_p_services {
+  font-family: "Montserrat";
+  color: var(--main-color);
+  font-size: medium;
+  padding-top: 2%;
+  box-sizing: border-box;
+  text-align: center;
+  width: 80%;
+  margin: 0 10%;
+  box-sizing: border-box;
+}
+
 .common_p_white {
   font-family: "Montserrat";
   color: var(--second-color);
@@ -687,14 +699,13 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
-  .navbar{
+  .navbar {
     padding: 0 1vw;
   }
 
-  .navbar ul{
+  .navbar ul {
     width: 100%;
-    justify-content: space-evenly
+    justify-content: space-evenly;
   }
 
   .navbar li {
@@ -706,7 +717,8 @@
     font-size: medium;
   }
 
-  .nav_logo, .nav_company {
+  .nav_logo,
+  .nav_company {
     display: none;
   }
 
@@ -717,15 +729,15 @@
   .hero_subtitle {
     font-size: 1.7em;
   }
-  .common_subtitle_black{
+  .common_subtitle_black {
     font-size: x-large;
   }
 
-  .common_subtitle_white{
+  .common_subtitle_white {
     font-size: x-large;
   }
 
-  .common_h3{
+  .common_h3 {
     font-size: medium;
   }
 
@@ -741,13 +753,31 @@
     margin: 0;
   }
 
-  .services{
+  .services {
     width: 95vw;
   }
 
-.service_icon{
-  height: 24px;
-}
+  .service_container {
+    flex-direction: column;
+  }
+
+  .service_grid {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .service_grid > h3 {
+    align-self: center;
+  }
+  .common_p_services {
+    display: none;
+  }
+
+  .service_icon {
+    height: 35px;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
 
   .about_cards {
     flex-direction: column;
@@ -757,7 +787,7 @@
     width: 100%;
     height: 45%;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 70% 0%;
+    grid-template-rows: 0% 100% 0%;
     border-radius: 10px;
   }
 
@@ -768,22 +798,17 @@
 
   .section_about_card_image_one,
   .section_about_card_image_two {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-    background-position: center;
-    border-left: 5px solid var(--second-color);
-    border-top: 5px solid var(--second-color);
-    border-bottom: 5px solid var(--second-color);
+    display: none;
   }
 
   .section_about_card_text {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-top-right-radius: 00px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
   }
 
-  .section_about_card_text > p{
+  .section_about_card_text > p {
     font-size: small;
   }
 
@@ -805,7 +830,8 @@
     border-radius: 10px;
   }
 
-  .client_card:first-child, .client_card:nth-child(2) {
+  .client_card:first-child,
+  .client_card:nth-child(2) {
     display: none;
   }
 
@@ -829,10 +855,10 @@
     align-items: center;
   }
 
-  .client_card_text > p{
-  font-size: medium;
-  width: 80%;
-  margin: 0 10%;
+  .client_card_text > p {
+    font-size: medium;
+    width: 80%;
+    margin: 0 10%;
   }
 
   .contact_content_cards {
