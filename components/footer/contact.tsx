@@ -7,8 +7,9 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import EventIcon from "@mui/icons-material/Event";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import CopyrightIcon from "@mui/icons-material/Copyright";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LogoAllWhite from "../../public/images/fbf_logo_allwhite_text.svg";
+import Arrow from "../body/arrow";
 
 const Contact = () => {
   const { t } = useTranslation("common");
@@ -42,16 +43,14 @@ const Contact = () => {
 
               <div className={styles.contact_content_cards_data}>
                 <div className={styles.contact_content_cards_data_address}>
-                                    <h3 className={styles.common_h3}>
+                  <h3 className={styles.common_h3}>
                     {t("contact_address_street")}
                   </h3>
-                  
+
                   <p className={styles.common_p}>
                     {t("contact_address_neighborhood")}
                   </p>
-                  <p className={styles.common_p}>
-                    {t("contact_address_city")}
-                  </p>
+                  <p className={styles.common_p}>{t("contact_address_city")}</p>
                   <p className={styles.common_p}>
                     {t("contact_address_postalcode")}
                   </p>
@@ -67,7 +66,9 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <InstagramIcon className={styles.contact_content_cards_data_social_icon} />
+                    <InstagramIcon
+                      className={styles.contact_content_cards_data_social_icon}
+                    />
                   </a>
                   <a
                     href="mailto:floripabikefit@gmail.com"
@@ -75,7 +76,9 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <MailOutlineIcon className={styles.contact_content_cards_data_social_icon} />
+                    <MailOutlineIcon
+                      className={styles.contact_content_cards_data_social_icon}
+                    />
                   </a>
 
                   <a
@@ -84,53 +87,19 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <WhatsAppIcon className={styles.contact_content_cards_data_social_icon} />
+                    <WhatsAppIcon
+                      className={styles.contact_content_cards_data_social_icon}
+                    />
                   </a>
-
-
-                  
                 </div>
               </div>
             </div>
           </div>
 
+<Arrow/>
+
           <div className={styles.contact_info}>
-            <div className={styles.contact_info_top}>
-              {/* <div className={styles.foot_topLeft}>
-                  <LogoAllWhite alt="Logo" className={styles.foot_logo} />
-                </div>
-
-                <div className={styles.foot_topCenter}>
-                  <p className={styles.foot_slogan}>{t("slogan")}</p>
-                </div>
-
-                <div className={styles.foot_topRight}>
-                  <a
-                    href="https://www.instagram.com/floripabikefit/"
-                    title="Instagram"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <InstagramIcon className={styles.foot_icon} />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/floripabikefit/"
-                    title="Agenda"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <EventIcon className={styles.foot_icon} />
-                  </a>
-                  <a
-                    href="mailto:floripabikefit@gmail.com"
-                    title="Email"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <MailOutlineIcon className={styles.foot_icon} />
-                  </a>
-                </div> */}
-            </div>
+            <div className={styles.contact_info_top}></div>
 
             <div className={styles.contact_info_bottom}>
               <p>

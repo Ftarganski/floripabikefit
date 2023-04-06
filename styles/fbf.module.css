@@ -45,7 +45,7 @@
 .common_p_large {
   font-family: "Montserrat";
   color: var(--main-color);
-  font-size: x-large;
+  font-size: larger;
   font-weight: 300;
   box-sizing: border-box;
   text-align: center;
@@ -572,18 +572,18 @@
   width: 50%;
 }
 
-.contact_content_cards_data_address{
+.contact_content_cards_data_address {
   height: 70%;
   width: 90%;
   justify-content: center;
 }
 
-.contact_content_cards_data_social{
+.contact_content_cards_data_social {
   height: 30%;
   width: 90%;
   display: flex;
   flex-direction: row;
- justify-content: center;
+  justify-content: center;
 }
 
 .contact_content_cards_data_social_icon {
@@ -626,69 +626,6 @@
 .contact_info_icon {
   font-size: xx-small;
 }
-
-/* INFO */
-
-/* .info_top {
-  display: flex;
-  height: 80%;
-  width: 80vw;
-  align-self: center;
-} */
-
-/* .info_bottom {
-  display: flex;
-  flex-direction: column;
-  height: 20%;
-  width: 80vw;
-  color: var(--second-color);
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  border-top: solid 1px var(--second-color);
-} */
-
-/* .foot_topLeft {
-  display: flex;
-  flex-basis: 20%;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .foot_logo {
-  height: 60%;
-  width: auto;
-} */
-
-/* .foot_topCenter {
-  display: flex;
-  flex-basis: 60%;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .foot_slogan {
-  font-family: "Montserrat";
-  font-size: medium;
-  color: var(--second-color);
-  font-style: italic;
-} */
-
-/* .foot_topRight {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 20%;
-  justify-content: space-evenly;
-  align-items: center;
-} */
-
-
-
-/* .info_bottom p:first-child {
-  font-family: "Contrax";
-  font-size: medium;
-  font-style: italic;
-} */
 
 /* ARROW */
 
@@ -746,4 +683,146 @@
 
 .background_bottom_svg_fill {
   fill: #ffffff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .nav_company {
+    display: none;
+  }
+
+  .hero_title {
+    font-size: 2.2em;
+  }
+
+  .hero_subtitle {
+    font-size: 1.7em;
+  }
+
+  .common_p {
+    font-size: small;
+  }
+  .common_p_large {
+    font-size: medium;
+  }
+
+  .about_cards {
+    flex-direction: column;
+  }
+
+  .section_about_card {
+    width: 100%;
+    height: 45%;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 100%;
+    border-radius: 10px;
+  }
+
+  .section_about_card_image_one,
+  .section_about_card_image_two {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    background-position: center;
+    border-left: 5px solid var(--second-color);
+    border-top: 5px solid var(--second-color);
+    border-bottom: 5px solid var(--second-color);
+  }
+
+  .section_about_card_stats {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .section_about_card_stats_bottom {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .clients_cards {
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+  }
+
+  .client_card {
+    width: 100%;
+    height: 30%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+  }
+  .client_card_image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .client_card_image_client {
+    height: 70%;
+  }
+
+  .client_card_name {
+    width: 100%;
+  }
+  .client_card_nickname {
+    flex-direction: column;
+  }
+  .client_card_text {
+    align-self: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .common_p {
+    font-size: small;
+  }
+
+  .clients_cards {
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+  }
+
+  .client_card {
+    width: 90%;
+    height: 30%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+  }
+  .client_card_image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .client_card_image_client {
+    height: 70%;
+  }
+
+  .client_card_name {
+    width: 100%;
+  }
+  .client_card_nickname {
+    flex-direction: column;
+  }
+  .client_card_text {
+    align-self: center;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
 }
