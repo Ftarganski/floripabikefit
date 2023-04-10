@@ -45,7 +45,7 @@ const Clients = () => {
               <Client_Two alt="Cliente" className={styles.client_card_image_client}/>
               <div className={styles.client_card_name}>
               <h3 className={styles.common_h3}>{t("client_two")}</h3>
-              <a href="https://www.strava.com/athletes/12577606"
+              <a href="https://www.strava.com"
               target="_blank"
               rel="noreferrer" className={styles.client_card_nickname}>
               <Strava className={styles.client_card_icon}/>{t("client_two_nickname")}</a>

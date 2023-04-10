@@ -4,22 +4,22 @@
     "title": "“Supere seus limites, melhore seu desempenho”",
 
     "service_subtitle_top": "O que é o Bike Fit?",
-    "service_description_top": "O Bike Fit (ou “ajuste de bicicleta”) é um processo que visa atingir o ajuste ideal das dimensões da bicicleta de acordo com antropometria específica de cada ciclista.<br><br>Durante o Bike Fit, nossos especialistas irão trabalhar com o ciclista para ajustar a bicicleta de acordo com suas necessidades e características físicas. Isso pode incluir diversos ajustes dimensionais, como por exemplo: altura do selim, posição do guidão, inclinação do selim, distância do guidão, inclinação da mesa, entre outras coisas.",
+    "service_description_top": "O Bike Fit (ajuste de bicicleta) é um processo que visa atingir o ajuste ideal das dimensões da bicicleta de acordo com antropometria específica de cada ciclista.<br><br>Durante o Bike Fit, nossos especialistas irão trabalhar com o ciclista para ajustar a bicicleta de acordo com suas necessidades e características físicas. Isso pode incluir diversos ajustes dimensionais, como por exemplo: altura do canote, inclinação e distância do selim, tamanho e inclinação da mesa, tamanho e  posição do guidão, entre outros.",
     "service_subtitle_bottom": "Para que serve o Bike Fit?",
 
     "service_performance_title": "Performance",
-    "service_performance_description": "O Bike Fit pode melhorar a eficiência do ciclista na bicicleta, permitindo que ele transmita mais potência para os pedais, o que pode levar a um aumento da velocidade e do desempenho geral.",
+    "service_performance_description": "O Bike Fit melhora eficiência do ciclista, permitindo que ele transmita mais potência para os pedais, o que leva a um aumento da velocidade e do desempenho geral.",
     "service_confort_title": "Conforto",
-    "service_confort_description": "A relação entre conforto e Bike Fit é fundamental para o desempenho e a saúde do ciclista. O Bike Fit adequado visa maximizar o conforto do ciclista durante a pedalada, permitindo que ele se concentre na performance sem sentir desconfortos ou dores.",
+    "service_confort_description": "A relação entre conforto e Bike Fit é fundamental para o desempenho e a saúde do ciclista. O Bike Fit adequado visa maximizar o conforto durante a pedalada, permitindo maior  concentração na performance sem sentir desconfortos ou dores.",
     "service_injury_title": "Evita Lesões",
-    "service_injury_description": "Quando uma bicicleta não está ajustada corretamente, pode levar a lesões comuns em ciclistas, como lesões no joelho, dor lombar, síndrome do túnel do carpo, entre outras.",
+    "service_injury_description": "Quando uma bicicleta não está ajustada corretamente, pode levar a lesões comuns, como lesões no joelho, dor lombar, síndrome do túnel do carpo, entre outras.",
 
     "about_title": "Nossa equipe de Bike Fitters",
     "about_fitter_stats_title": "Estatísticas Mensais",
 
     "about_fitter_one": "Jorge Vasconcellos",
     "about_fitter_one_nickname": "Ciclista Prateado",
-    "about_description_fitter_one": "Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor",
+    "about_description_fitter_one": "Conheci a caloi 10 na década de 70. Ali já estava certo que a speed seria minha escolha. Egresso como atleta das Artes Marciais e corrida, migrei para o ciclismo por lesões e, nunca mais sai do esporte. Me profissionalizei para atender a uma gama maior de ciclistas, pois trata-se de uma realização pessoal, uma superação, que posso compartilhar com conhecimentos técnicos e da minha experiência.",
     "about_fitter_one_distance": "Distância",
     "about_fitter_one_distance_data": "700 km",
     "about_fitter_one_elevation": "Elevação",
@@ -41,15 +41,14 @@
 
     "client_one": "Nicole Ortolani",
     "client_one_nickname": "Nicole Ortolani",
-    "client_one_comment": "cliente 01 comentário",
+    "client_one_comment": "",
 
-    "client_two": "Marcelo Onhate",
-    "client_two_nickname": "Marcelo Onhate",
-    "client_two_comment": "cliente 02 comentário",
-
+    "client_two": "Lucas Agüero",
+    "client_two_nickname": "Lucas Agüero",
+    "client_two_comment": "“Fui ao Floripa Bike Fit ajustar a bike para o meu tipo de corpo e a equipe fez um trabalho fantástico. Passei de dores nas costas e nos joelhos, devido à má postura causada por ter a bicicleta mal calibrada, a poder pedalar muitos quilômetros sem ter nenhum problema ou mal-estar. A equipe é muito profissional e também tem uma vibração e predisposição muito boas.”",
     "client_three": "Leandro Rocco",
     "client_three_nickname": "Leandro Rocco",
-    "client_three_comment": "“Lugar amplo, moderno, luminoso e um atendimento totalmente amigável. Fui com meu selim muito baixo por causa de uma dor que estava sentindo, eles me explicaram que se eu continuasse pedalando desse jeito ia ter problemas em outras partes como joelhos, cervical, etc. Depois das modificações, que no começo são estranhas, melhorou bastante a dor e a posição minha na bike”",
+    "client_three_comment": "“Lugar amplo, moderno, luminoso e um atendimento totalmente amigável. Fui com meu selim muito baixo por causa de uma dor que estava sentindo, eles me explicaram que se eu continuasse pedalando desse jeito ia ter problemas em outras partes como joelhos, cervical, etc. Depois das modificações, que no começo são estranhas, melhorou bastante a dor e a posição minha na bike.”",
 
     "client_four": "cliente 04",
     "client_four_nickname": "cliente 04 strava",
